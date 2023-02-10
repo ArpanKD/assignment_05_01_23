@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+    <style>
+         label {
+            width: 120px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .form-field {
+            margin: 10px;
+        }
+        input {
+            width: 200px;
+            height: 24px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section style="padding:10px">
+        <form action="/register">
+        <a href="../index.html">Home</a>
+        <a href="./curriculum.html">Curriculum</a>
+        <a href="./registration.html">Registration</a>
+    </section>
+    <section>
+        <h1>Login</h1>
+        <div class="form-field">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Username or email id" name="email" value=""/>
+        </div>
+       
+        <div class="form-field">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" />
+        </div>
+        <div class="form-field">
+            <button type="submit" >Log in</button>
+
+        </div>
+        <div class="form-field">
+            <p>Don't have an account? <a href="./registration.html">Sign up</a></p>
+        </div>
+    
+    </form>
+        
+    </section>
+    
+</body>
+
+</html>
